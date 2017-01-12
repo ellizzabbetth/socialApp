@@ -1,14 +1,29 @@
 {
-  "name": "node-rest-auth",
+  "name": "socialApp",
   "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "devDependencies": {
+    "nodemon": "~1.3.8"
+  },
   "dependencies": {
-    "bcrypt": "^0.8.5",
+    "//": "cmmet",
+    "bcrypt-nodejs" : "latest",
+    "//": "body-parser will let us get parameters from our POST requests",
     "body-parser": "~1.9.2",
+    "//": "TODO cors",
+    "//": "express is the popular Node framework",
     "express": "~4.9.8",
+    "//": "",
     "jwt-simple": "^0.3.1",
+    "//": "",
     "mongoose": "~4.2.4",
+    "//": "morgan will log requrests to the console so we can see what is happening",
     "morgan": "~1.5.0",
-    "passport": "^0.3.0",
-    "passport-jwt": "^1.2.1"
+    "//": "",
+    "passport": "^0.3.2",
+    "//": "",
+    "passport-jwt": "^2.0.0"
   }
 }
